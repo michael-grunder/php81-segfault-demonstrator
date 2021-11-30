@@ -2,6 +2,8 @@
 
 This small example demonstrates an invalid read in php 8.1.0 under valgrind.
 
+## Update, it appears the behavior starts after this [PHP commit](https://github.com/php/php-src/commit/a0c44fbaf19841164c7984a6c21b364d391f3750)
+
 ## The script itself
 ```php
 <?php $x = 'k1';
